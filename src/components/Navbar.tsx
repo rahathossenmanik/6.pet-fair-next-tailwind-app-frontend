@@ -70,7 +70,9 @@ const Navbar = (props: any) => {
               </Button>
             )}
             <Link href='/pets/register'>
-              <Button className={classes.hiddenMobile}>Introduce Pet</Button>
+              <Button className={classes.hiddenMobile}>
+                Introduce Pet
+              </Button>
             </Link>
           </Group>
 
